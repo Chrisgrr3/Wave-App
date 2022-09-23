@@ -37,3 +37,15 @@ below command:
     		console.log(account.address);
   }
 });
+
+6) To view the accounts that we will interact with, run the below command:
+
+	npx hardhat accounts
+
+7) To ensure everything is working, run:
+
+	npx hardhat compile
+
+8) Then run:
+
+	npx hardhat test
