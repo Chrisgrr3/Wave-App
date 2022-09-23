@@ -24,4 +24,6 @@ below command:
 
 	npx hardhat
 
+4) We'll also need to install some additional dependencies:
 
+	npm install --save-dev chai @nomiclabs/hardhat-ethers ethers @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-chai-matchers
