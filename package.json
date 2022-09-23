@@ -1,0 +1,28 @@
+{
+  "name": "wave-app",
+  "version": "1.0.0",
+  "description": "This project will create an Ethereum DApp that will allow users to connect their MetaMask wallet and submit posts to a message board. Submission allows a user to send a 'wave' to the creator of the DApp (me, hehe). Users will also be able to view their posts as well as other's posts on the message board.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisgrr3/Wave-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisgrr3/Wave-App/issues"
+  },
+  "homepage": "https://github.com/Chrisgrr3/Wave-App#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2"
+  }
+}

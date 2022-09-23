@@ -1,0 +1,27 @@
+Before beginning our project, we'll need to spin up our local Ethereum network
+so that we can compile and test our smart contract code.
+
+Hardhat
+ - This tool allows us to easily spin up a local Ethereum network and give us 
+fake test ETH and fake test accounts to work with. This is like a local server,
+except the "server is the blockchain.
+ - Hardhat will allow us to quickly compile smart contracts and test them on our
+local blockchain.
+
+1) We'll first need to get Node/NPM. It's recommended to get Hardhat using the 
+current LTS Node.js version.
+
+2) Next, we'll want to head to our terminal and cd into the directory we want to 
+work in. Then, run the below commands:
+
+	mkdir my-wave-portal
+	cd my-wave-portal
+	npm init -y // Creates package.json for project
+	npm install --save-dev hardhat@latest // Installs latest hardhat version
+
+3) Now that we have Hardhat, we can get a sample project going by running the
+below command:
+
+	npx hardhat
+
+
